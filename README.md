@@ -1,13 +1,12 @@
 ## Hi there 👋
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=univers629&show_icons=true&theme=radical)
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?theme=radical&username=univers629&show_icons=true&include_all_commits=true&show=reviews%2Cdiscussions_answered&rank_icon=percentile&role=OWNER%2CORGANIZATION_MEMBER%2CCOLLABORATOR">
-  <img src="https://github-readme-stats.vercel.app/api?username=univers629&show_icons=true&include_all_commits=true&show=reviews%2Cdiscussions_answered&rank_icon=percentile&role=OWNER%2CORGANIZATION_MEMBER%2CCOLLABORATOR">
+  <img src="https://github-readme-stats.vercel.app/api?theme=radical&username=univers629&show_icons=true&include_all_commits=true&show=reviews%2Cdiscussions_answered&rank_icon=percentile&role=OWNER%2CORGANIZATION_MEMBER%2CCOLLABORATOR">
 </picture>
 &nbsp; <!-- 添加空格让图片间距更自然 -->
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?theme=radical&username=univers629&layout=compact&exclude_repo=Hardware-Course&hide=Jupyter%20Notebook%2CMATLAB&role=OWNER%2CORGANIZATION_MEMBER%2CCOLLABORATOR&langs_count=12">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=univers629&layout=compact&exclude_repo=Hardware-Course&hide=Jupyter%20Notebook%2CMATLAB&role=OWNER%2CORGANIZATION_MEMBER%2CCOLLABORATOR&langs_count=12">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?theme=radical&username=univers629&layout=compact&exclude_repo=Hardware-Course&hide=Jupyter%20Notebook%2CMATLAB&role=OWNER%2CORGANIZATION_MEMBER%2CCOLLABORATOR&langs_count=12">
 </picture>
 
 
