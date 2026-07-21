@@ -1,4 +1,4 @@
-<h1 align="center"> <a href="https://sunguoqi.com/"> <img src="https://readme-typing-svg.herokuapp.com/?lines=console.log(%22Hello%2C%20World!%22);小歌者祝您今天愉快!&center=true&size=27"> </a> </h1>
+<h1 align="center"> <a href="https://sunguoqi.com/"> <img src="https://readme-typing-svg.herokuapp.com/?lines=console.log(%22Hello%2C%20World!%22);在广袤的空间与无限的时间中，能与你们相遇在同一颗星球与同一段时光，是我的荣幸&center=true&size=27"> </a> </h1>
 
 <table>
   <tr>
