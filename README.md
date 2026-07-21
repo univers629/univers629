@@ -2,23 +2,16 @@
 
 <table>
   <tr>
-    <!-- 左边：大卡片 (metrics.lecoq.io 综合统计) -->
     <td rowspan="2" valign="top">
       <img src="https://metrics.lecoq.io/univers629?template=classic&config.timezone=Asia%2FShanghai" width="400" />
     </td>
-    <!-- 右边上面：GitHub Stats Extended -->
     <td valign="top">
-      <a href="https://github.com/stats-organization/github-stats-extended">
-        <img src="https://github-stats-extended.vercel.app/api?username=univers629" width="340" />
-      </a>
+      <img src="https://github-readme-stats.vercel.app/api?username=univers629&show_icons=true&theme=default&hide_border=true" width="340" />
     </td>
   </tr>
   <tr>
-    <!-- 右边下面：GitHub Streak Stats (修正后的地址) -->
     <td valign="top">
-      <a href="https://git.io/streak-stats">
-        <img src="https://streak-stats.demolab.com/?user=univers629&theme=default" width="340" />
-      </a>
+      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=univers629&layout=compact&hide_border=true&langs_count=6&theme=default" width="340" />
     </td>
   </tr>
 </table>
