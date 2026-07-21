@@ -2,22 +2,44 @@ name: Generate GitHub Stats
 
 on:
   schedule:
-    - cron: '0 0 * * *'   # 每天 UTC 0 点运行（北京时间早8点）
-  workflow_dispatch:        # 允许手动点按钮运行
+    - cron: '0 0 * * *'
+  workflow_dispatch:
 
 jobs:
   build:
     runs-on: ubuntu-latest
     permissions:
-      contents: write       # 允许自动提交代码
+      contents: write
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
       
-      - name: Generate GitHub Stats
-        run: curl -o github-stats.svg "https://github-readme-stats.vercel.app/api?username=univers629&show_icons=true&theme=default&hide_border=true"
+      # 生成 GitHub Stats Extended（你自己的版本）
+      - name: Generate GitHub Stats Extended
+        run: |
+          for i in 1 2 3; do
+            curl -sL --fail "https://github-stats-extended.vercel.app/api?username=univers629" -o github-stats.svg && break
+            echo "Attempt $i failed, retrying..."
+            sleep 5
+          done
+          if ! head -1 github-stats.svg | grep -q "<svg"; then
+            echo "ERROR: github-stats.svg is not valid SVG"
+            cat github-stats.svg
+            exit 1
+          fi
       
+      # 生成 Top Languages（官方版本）
       - name: Generate Top Languages
-        run: curl -o top-langs.svg "https://github-readme-stats.vercel.app/api/top-langs/?username=univers629&layout=compact&hide_border=true&langs_count=6&theme=default"
+        run: |
+          for i in 1 2 3; do
+            curl -sL --fail "https://github-readme-stats.vercel.app/api/top-langs/?username=univers629&layout=compact&hide_border=true&langs_count=6&theme=default" -o top-langs.svg && break
+            echo "Attempt $i failed, retrying..."
+            sleep 5
+          done
+          if ! head -1 top-langs.svg | grep -q "<svg"; then
+            echo "ERROR: top-langs.svg is not valid SVG"
+            cat top-langs.svg
+            exit 1
+          fi
       
       - name: Commit and Push
         run: |
