@@ -1,6 +1,5 @@
 ## Hi there 👋
-![GitHub账户信息统计](https://github-stats.ubrong.com/api?username=univers629&amp;show_icons=true&amp;theme=tokyonight)
-
+<div align="center"> <img src="https://metrics.lecoq.io/univers629?template=classic&config.timezone=Asia%2FShanghai"> </div>
 <!--
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?theme=radical&username=univers629&show_icons=true&include_all_commits=true&show=reviews%2Cdiscussions_answered&rank_icon=percentile&role=OWNER%2CORGANIZATION_MEMBER%2CCOLLABORATOR">
