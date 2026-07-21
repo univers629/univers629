@@ -1,4 +1,4 @@
-<h1 align="center"> <a href="https://sunguoqi.com/"> <img src="https://readme-typing-svg.herokuapp.com/?lines=console.log(%22Hello%2C%20World!%22);在广袤的空间与无限的时间中，能与你们相遇在同一颗星球与同一段时光，是我的荣幸&center=true&size=27"> </a> </h1>
+<h1 align="center"> <a href="https://sunguoqi.com/"> <img src="https://readme-typing-svg.herokuapp.com/?lines=console.log(%22Hello%2C%20World!%22);祝你天天开心！&center=true&size=27"> </a> </h1>
 
 <table>
   <tr>
@@ -6,12 +6,12 @@
       <img src="https://metrics.lecoq.io/univers629?template=classic&config.timezone=Asia%2FShanghai" width="400" />
     </td>
     <td valign="top">
-      <img src="https://github-readme-stats.vercel.app/api?username=univers629&show_icons=true&theme=default&hide_border=true" width="340" />
+      <img src="./github-stats.svg" width="340" />
     </td>
   </tr>
   <tr>
     <td valign="top">
-      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=univers629&layout=compact&hide_border=true&langs_count=6&theme=default" width="340" />
+      <img src="./top-langs.svg" width="340" />
     </td>
   </tr>
 </table>
