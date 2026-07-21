@@ -4,7 +4,7 @@
   <tr>
     <!-- 左边：大卡片 (metrics.lecoq.io 综合统计) -->
     <td rowspan="2" valign="top">
-      <img src="https://metrics.lecoq.io/univers629?template=classic&config.timezone=Asia%2FShanghai" width="420" />
+      <img src="https://metrics.lecoq.io/univers629?template=classic&config.timezone=Asia%2FShanghai" width="400" />
     </td>
     <!-- 右边上面：GitHub Stats Extended -->
     <td valign="top">
@@ -14,9 +14,11 @@
     </td>
   </tr>
   <tr>
-    <!-- 右边下面：Top Languages (常用语言) -->
+    <!-- 右边下面：GitHub Streak Stats (修正后的地址) -->
     <td valign="top">
-      <img  src="https://github-readme-streak-stats.herokuapp.com/?user=univers629" />
+      <a href="https://git.io/streak-stats">
+        <img src="https://streak-stats.demolab.com/?user=univers629&theme=default" width="340" />
+      </a>
     </td>
   </tr>
 </table>
