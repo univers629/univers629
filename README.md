@@ -1,8 +1,26 @@
-## Hi there 👋
-
 <h1 align="center"> <a href="https://sunguoqi.com/"> <img src="https://readme-typing-svg.herokuapp.com/?lines=console.log(%22Hello%2C%20World!%22);小歌者祝您今天愉快!&center=true&size=27"> </a> </h1>
 
-<div align="center"> <img src="https://metrics.lecoq.io/univers629?template=classic&config.timezone=Asia%2FShanghai"> </div>
+<table>
+  <tr>
+    <!-- 左边：大卡片 (metrics.lecoq.io 经典模板) -->
+    <td rowspan="2" valign="top">
+      <img src="https://metrics.lecoq.io/univers629?template=classic&config.timezone=Asia%2FShanghai" width="420" />
+    </td>
+    <!-- 右边上面：GitHub Stats Extended -->
+    <td valign="top">
+      <a href="https://github.com/stats-organization/github-stats-extended">
+        <img src="https://github-stats-extended.vercel.app/api?username=univers629" width="340" />
+      </a>
+    </td>
+  </tr>
+  <tr>
+    <!-- 右边下面：Top Languages (渐变背景) -->
+    <td valign="top">
+      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=univers629&hide_title=true&hide_border=true&layout=compact&langs_count=6&text_color=000&icon_color=fff&bg_color=0,52fa5a,4dfcff,c64dff&theme=graywhite" width="340" />
+    </td>
+  </tr>
+</table>
+
 <!--
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?theme=radical&username=univers629&show_icons=true&include_all_commits=true&show=reviews%2Cdiscussions_answered&rank_icon=percentile&role=OWNER%2CORGANIZATION_MEMBER%2CCOLLABORATOR">
